@@ -1,0 +1,31 @@
+<svg width="555" height="280" viewBox="0 0 555 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="554.81" height="280" rx="8" fill="#F3F3F3"/>
+<rect x="0.5" y="0.5" width="553.81" height="279" rx="7.5" stroke="#0A0A0A" stroke-opacity="0.1" stroke-dasharray="3 2"/>
+<rect x="137.41" y="9" width="280" height="52" rx="8" fill="white" fill-opacity="0.3"/>
+<rect x="137.41" y="69" width="280" height="142" rx="8" fill="white"/>
+<rect x="137.91" y="69.5" width="279" height="141" rx="7.5" stroke="#0A0A0A" stroke-opacity="0.1" stroke-dasharray="3 2"/>
+<rect x="138" y="69.25" width="278" height="140" rx="8" transform="rotate(-0.0781498 138 69.25)" fill="#0A0A0A"/>
+<rect x="170.359" y="102.9" width="92.69" height="16" rx="2" transform="rotate(-0.0781498 170.359 102.9)" fill="white" fill-opacity="0.1"/>
+<rect x="170.359" y="126.9" width="72.1" height="30" rx="2" transform="rotate(-0.0781498 170.359 126.9)" fill="white" fill-opacity="0.1"/>
+<rect x="170.369" y="164.9" width="24" height="12" rx="2" transform="rotate(-0.0781498 170.369 164.9)" fill="#CBF36E"/>
+<rect x="281.221" y="99.5195" width="103" height="80" rx="2" transform="rotate(-0.0781498 281.221 99.5195)" fill="white" fill-opacity="0.1"/>
+<rect x="137.41" y="219" width="280" height="52" rx="8" fill="white" fill-opacity="0.3"/>
+<g clip-path="url(#clip0_445_724)">
+<g clip-path="url(#clip1_445_724)">
+<g clip-path="url(#clip2_445_724)">
+<path d="M92.0511 42.8271C92.5245 42.5425 92.6776 41.9282 92.3931 41.4548L87.7568 33.7409C87.4723 33.2675 86.8579 33.1144 86.3846 33.3989C85.9112 33.6834 85.7581 34.2978 86.0426 34.7712L90.1638 41.628L83.3069 45.7492C82.8336 46.0337 82.6805 46.648 82.965 47.1214C83.2495 47.5948 83.8638 47.7479 84.3372 47.4634L92.0511 42.8271ZM77.2265 115.096C46.2196 101.92 32.7462 79.3505 35.3067 62.6036C36.5811 54.269 41.8246 47.2308 51.0853 43.3131C60.3818 39.3803 73.7834 38.5766 91.2942 42.9403L91.7778 40.9996C74.0122 36.5725 60.1346 37.3133 50.3061 41.4711C40.442 45.644 34.7148 53.2425 33.3297 62.3013C30.5714 80.3412 45.024 103.585 76.4443 116.937L77.2265 115.096Z" fill="#D2D1D0"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_445_724">
+<rect width="60" height="84" fill="white" transform="translate(33 33)"/>
+</clipPath>
+<clipPath id="clip1_445_724">
+<rect width="60" height="84" fill="white" transform="translate(33 33)"/>
+</clipPath>
+<clipPath id="clip2_445_724">
+<rect width="60" height="84" fill="white" transform="translate(33 33)"/>
+</clipPath>
+</defs>
+</svg>

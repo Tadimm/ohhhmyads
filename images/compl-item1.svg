@@ -1,0 +1,22 @@
+<svg width="352" height="210" viewBox="0 0 352 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="352" height="210" rx="8" fill="#EEEEEE"/>
+<rect x="31" y="56.5" width="122" height="97" rx="8" fill="white" fill-opacity="0.5"/>
+<rect x="31.5" y="57" width="121" height="96" rx="7.5" stroke="#181A1D" stroke-opacity="0.1" stroke-dasharray="3 3"/>
+<path d="M31 64.5C31 60.0817 34.5817 56.5 39 56.5H145C149.418 56.5 153 60.0817 153 64.5V145.5C153 149.918 149.418 153.5 145 153.5H39C34.5817 153.5 31 149.918 31 145.5V64.5Z" fill="white"/>
+<rect x="43" y="79" width="45" height="8" rx="4" fill="#EEEEEE"/>
+<rect x="43" y="95" width="45" height="19" rx="4" fill="#EEEEEE"/>
+<rect x="43" y="122" width="21" height="9" rx="4" fill="#EEEEEE"/>
+<rect x="96" y="82" width="45" height="46" rx="4" fill="#EEEEEE"/>
+<line x1="175.5" y1="175" x2="175.5" y2="35" stroke="#181A1D" stroke-opacity="0.1" stroke-dasharray="4 4"/>
+<rect x="199" y="51" width="122" height="108" rx="8" fill="white" fill-opacity="0.5"/>
+<rect x="199.5" y="51.5" width="121" height="107" rx="7.5" stroke="#0A0A0A" stroke-opacity="0.1" stroke-dasharray="3 3"/>
+<mask id="path-12-inside-1_521_2532" fill="white">
+<path d="M199 59C199 54.5817 202.582 51 207 51H313C317.418 51 321 54.5817 321 59V151C321 155.418 317.418 159 313 159H207C202.582 159 199 155.418 199 151V59Z"/>
+</mask>
+<path d="M199 59C199 54.5817 202.582 51 207 51H313C317.418 51 321 54.5817 321 59V151C321 155.418 317.418 159 313 159H207C202.582 159 199 155.418 199 151V59Z" fill="#0A0A0A"/>
+<path d="M207 52H313V50H207V52ZM320 59V151H322V59H320ZM313 158H207V160H313V158ZM200 151V59H198V151H200ZM207 158C203.134 158 200 154.866 200 151H198C198 155.971 202.029 160 207 160V158ZM320 151C320 154.866 316.866 158 313 158V160C317.971 160 322 155.971 322 151H320ZM313 52C316.866 52 320 55.134 320 59H322C322 54.0294 317.971 50 313 50V52ZM207 50C202.029 50 198 54.0294 198 59H200C200 55.134 203.134 52 207 52V50Z" fill="#0A0A0A" fill-opacity="0.1" mask="url(#path-12-inside-1_521_2532)"/>
+<rect x="210" y="63" width="100" height="13" rx="4" fill="white" fill-opacity="0.1"/>
+<rect x="235" y="86" width="23" height="8" rx="4" fill="white" fill-opacity="0.1"/>
+<rect x="262" y="86" width="23" height="8" rx="4" fill="white" fill-opacity="0.1"/>
+<path d="M211 106C211 103.791 212.791 102 215 102H305C307.209 102 309 103.791 309 106V159H211V106Z" fill="white" fill-opacity="0.1"/>
+</svg>

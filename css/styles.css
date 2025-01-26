@@ -1,0 +1,751 @@
+body {
+    background-color: #FF66C8;
+    font-family: Bricolage Grotesque, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 96px;
+}
+
+.logo {
+    width: 130px;
+}
+
+.nav-bar {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    background-color: #0000002e;
+    backdrop-filter: blur(6px);
+    border-radius: 0.4rem;
+    height: 3.46rem;
+}
+
+.nav-link,
+.nav-button-link {
+    color: #fff;
+    font-size: 16px; 
+    padding: 12.8px 24px 12px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-button-link:hover {
+    background-color: #000;
+}
+
+.nav-button {
+    background-color: #0000002e;
+    backdrop-filter: blur(6px);
+    height: 3.46rem;
+    border-radius: 0.4rem;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    max-width: 1400px;
+    /* height: 100vh; */
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    /*position: relative; */
+}
+
+.hero-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 100vh;
+
+}
+
+h1 {
+    font-family: Spicy Rice, sans-serif;
+    font-size: 7.6rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.hero-interaction-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-card {
+    width: 45vh;
+    height: 55vh;
+    position: absolute;
+}
+
+.hero-img-1,
+.hero-img-2,
+.hero-img-3 {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-card.first {
+    transform: translate3d(8.3716%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(4.09371deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+    will-change: transform;
+    z-index: 3;
+}
+
+.hero-card.second {
+    transform: translate3d(-1.25574%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0.387605deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+    will-change: transform;
+    z-index: 2;
+}
+
+.hero-card.third {
+    transform: translate3d(-8.3716%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-3.10754deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+    will-change: transform;
+    z-index: 1;
+}
+
+.hero-min-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-content {
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 0.875rem;
+    max-width: 300px;
+}
+
+.hero-link {
+    font-family: Bricolage Grotesque, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hero-big-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: none;
+    inset: 0;
+}
+
+.hero-marque {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.text-display {
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 11rem;
+    font-weight: 300;
+    color: #fff3;
+    text-transform: uppercase;
+}
+
+.elipse {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff3;
+}
+
+.problem {
+    margin: 60px 0 100px;
+    padding: 0 40px;
+}
+
+.problem-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heading-block {
+    margin-bottom: 32px;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.complication {
+    justify-content: center;
+    align-items: center;
+}
+
+.first-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 26px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 0 0 16px;
+}
+
+.first-block-text {
+    font-family: Spicy Rice, sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.heading {
+    font-family: Spicy Rice, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 100px;
+    max-width: 75%;
+    margin: 10px 0;
+}
+
+.complications-head {
+    text-align: center;
+    /* max-width: 75%; */
+}
+
+.heading-black {
+    color: #000;
+}
+
+.heading-text {
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 20px;
+}
+
+.complications-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.card-item {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .complications-item {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.card-text {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 20px;
+    /* margin: 20px 0 12px;
+    padding: 0 22px;
+    text-align: center; */
+}
+
+.complication-text {
+    /* color: #000;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    margin: 20px 0 12px;
+    padding: 0 22px;
+    text-align: center; */
+    margin: 20px 0 12px;
+    padding: 0 22px;
+    text-align: center;
+
+}
+
+.solution-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.solutions {
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: sticky;
+    top: 24%;
+}
+
+/* .learn-wrapper {
+    position: sticky;
+    top: 27%;
+} */
+
+.solutions-head {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+/* .solution-list {
+    position: relative;
+} */
+
+.solution-item {
+    align-items: stretch;
+    padding: 10px 10px 32px;
+    margin-bottom: 200px;
+    max-width: 680px;
+    position: sticky;
+}
+
+.card-1 {
+    top: 18%;
+}
+
+.card-2 {
+    top: 20%;
+}
+
+.card-3 {
+    top: 21%;
+    margin-bottom: 60px;
+}
+
+.solution-heading {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.solution-text {
+    margin: 12px 0 0;
+}
+
+.call-us {
+    background-color: #000;
+    height: 140vh;
+}
+
+.call-us-block {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.block-header {
+    color: #fff;
+    text-align: center;
+    max-width: 70%;
+    margin: 10px 0;
+    font-family: Spicy Rice, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.orange-span {
+    color: #ff8549;
+}
+
+.block-text {
+    color: #fff;
+    text-align: center;
+    max-width: 39%;
+    margin-bottom: 24px;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 20px;
+}
+
+.block-button {
+    z-index: 1;
+    text-align: center;
+    background-color: #fff0;
+    border: 2px solid #fff;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 4rem;
+    margin-top: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-link {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.how-it-works {
+    background-color: #ff8549;
+    padding-bottom: 100px;
+}
+
+.how-it-works-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between; */
+}
+
+.how-it-works-head-text {
+    padding: 0 0 40px;
+}
+
+.how-it-works-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.how-it-works-item {
+    padding: 36px;
+}
+
+.item-pic {
+    width: 216px;
+}
+
+.how-it-works-heading {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.how-it-works-text {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.how-it-works-block {
+    padding: 0;
+    margin: 0;
+}
+
+.services {
+    background-color: #000;
+    padding: 40px 0 0;
+}
+
+.services-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.heading-pink {
+    color: #ff66c8;
+}
+
+.services-list {
+    /* grid-column-gap: 40px;
+    grid-row-gap: 40px; */
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    width: 50%;
+    margin-left: 30px;
+    padding-top: 60px;
+    
+    position: static;
+}
+
+.services-item {
+    background-color: #ffffff14;
+    padding: 24px;
+    /* max-width: 650px; */
+}
+
+.check-pic {
+    width: 40px;
+}
+
+.services-heading {
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 20px 0 10px;
+}
+
+.services-text {
+    color: #cecece;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.services-card-pic {
+    border-radius: 8px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.services-head {
+    color: #fff;
+    text-align: left;
+    max-width: 88%;
+    margin-top: 0;
+    font-family: Spicy Rice, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 85px;
+    white-space: nowrap;
+}
+
+.only-plusses {
+    background-color: #f0ece0;
+    padding: 100px 0;
+}
+
+.only-plusses-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.only-plusses-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 32px 0;
+}
+
+.only-plusses-head {
+    color: #000;
+}
+
+.only-plusses-head-text {
+    color: #000;
+}
+
+.only-plusses-list {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.only-plusses-item {
+    padding: 0 20px;
+    /* max-width: 320px; */
+}
+
+
+.card-block {
+    padding: 0 0 0 20px;
+}
+
+.only-plusses-heading {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 30px;
+    margin: 0 0 12px;
+}
+
+
+.only-plusses-text {
+    color: #585858;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 16px;
+}
+
+.pricing {
+    background-color: #f0ece0;
+}
+
+.pricing-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 32px 0;
+}
+.price-cards-block {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.pricing-head {
+    text-align: center;
+    color: #000;
+    font-size: 84px;
+}
+
+.price-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.mid-level {
+    border: 1px solid #ff66c8;
+    position: relative;
+}
+
+.mid-level-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.price-card-header {
+    color: #000;
+    margin-bottom: 12px;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.price-card-request,
+.price-period  {
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 18px;
+}
+
+.price-tag {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 20px 0 10px;
+}
+
+.price-button {
+    color: #fff;
+    background-color: #ff66c8;
+    border: 2px solid #fff;
+    border-radius: 200px;
+    width: 12rem;
+    height: 3.6rem;
+    margin: 24px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.included-header {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    margin: 0 0 10px;
+}
+
+.included-text {
+    color: #000;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.not-sure-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #ff66c8;
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+}
+
+.left-block-header {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: Spicy Rice, sans-serif;
+    font-size: 52px;
+    line-height: 66px;
+}
+
+.price-right-block {
+    margin-top: 60px;
+}
+
