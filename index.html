@@ -11,113 +11,127 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="./script.js"></script>
     <title>Ohhmyadds</title>
   </head>
   <body>
-    <div class="navigation">
-      <a href="#" class="nav-logo"
-        ><img class="logo" src="./images/logo.png"
-      /></a>
-      <nav class="nav-bar">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Capabilities</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Process</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        </ul>
-      </nav>
-      <button class="nav-button">
-        <a href="#" class="nav-button-link">Hire us</a>
-      </button>
-    </div>
+    <header class="header">
+      <div class="header-container">
+        <a href="#" class="logo-link"
+          ><img class="logo" src="./images/logo.png" alt="logo"
+        /></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Capabilities</a>
+            </li>
+            <li class="navi__tem"><a href="#" class="nav__link">Process</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link--button">
+                <div class="nav__link--circle"></div>
+                Hire us</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="nav__button">
+          <div class="nav__link--circle"></div>
+          Hire us
+        </button>
+      </div>
+    </header>
     <section class="hero">
-      <div class="hero-3">
-        <h1>Branding that&apos;s <br />crazy good.</h1>
-        <div class="hero-interaction-wrapper">
-          <div class="hero-card first">
+      <div class="hero__container">
+        <h1 class="hero__title">Branding that&apos;s <br />crazy good.</h1>
+        <div class="hero__interaction">
+          <div class="hero__card hero__card--first">
             <img
               src="images/taco-brand1.png"
-              class="hero-img-1"
+              class="hero__img--1"
               alt="first card"
             />
           </div>
-          <div class="hero-card second">
+          <div class="hero__card hero__card--second">
             <img
               src="images/taco-brand2.png"
-              class="hero-img-2"
+              class="hero__img--2"
               alt="second card"
             />
           </div>
-          <div class="hero-card third">
+          <div class="hero__card hero__card--third">
             <img
               src="images/taco-brand-3.png"
-              class="hero-img-3"
+              class="hero__img--3"
               alt="third card"
             />
           </div>
         </div>
         <div class="hero-content">
-          <div class="hero-min-content">
-            <p class="hero-left-content">
+          <div class="hero-content__min">
+            <p class="hero-content__left">
               Where Imagination Meets Strategy to Impactful Results
             </p>
-            <div class="hero-right-content">
-              <a href="#" class="hero-link">helllo@ohhmyadds.com</a>
-              <div class="link-line"></div>
+            <div class="hero-content__right">
+              <a href="#" class="hero-content__link">helllo@ohhmyadds.com</a>
+              <div class="hero-content__line"></div>
             </div>
           </div>
-          <div class="hero-big-text">
-            <div class="hero-marque">
-              <p class="text-display">Creative agency</p>
-              <div class="elipse"></div>
+          <div class="hero-content__big-text">
+            <div class="hero__marquee">
+              <p class="hero__text-display">Creative agency</p>
+              <div class="hero__ellipse"></div>
             </div>
-            <div class="hero-marque">
-              <p class="text-display">Creative agency</p>
-              <div class="elipse"></div>
+            <div class="hero__marquee">
+              <p class="hero__text-display">Creative agency</p>
+              <div class="hero__ellipse"></div>
             </div>
-            <div class="hero-marque">
-              <p class="text-display">Creative agency</p>
-              <div class="elipse"></div>
+            <div class="hero__marquee">
+              <p class="hero__text-display">Creative agency</p>
+              <div class="hero__ellipse"></div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="problem">
-      <div class="problem-container">
-        <div class="heading-block complication">
-          <div class="first-block">
-            <img src="images/snowflake.svg" />
-            <p class="first-block-text">Problem</p>
+      <div class="problem__container">
+        <div class="heading-block heading-block--problem">
+          <div class="icon-block">
+            <img
+              src="images/snowflake.svg"
+              class="icon-block__img"
+              alt="snowflake"
+            />
+            <p class="icon-block__text">Problem</p>
           </div>
-          <h2 class="heading complications-head">
+          <h2 class="heading heading--problem">
             Building a strong brand is
-            <span class="heading-black">complicated</span>
+            <span class="heading__highlight">complicated</span>
           </h2>
-          <p class="heading-text">
+          <p class="heading__description">
             How is it still so difficult to create the brand you actually want
             in 2025?
           </p>
         </div>
-        <div class="complications">
-          <ul class="cards-list complications-list">
-            <li class="card-item complications-item">
-              <img src="images/compl-item1.svg" />
-              <p class="card-text complication-text">
+        <div class="problem__complications">
+          <ul class="cards-list problem__cards-list">
+            <li class="card-item problem__card-item">
+              <img src="images/compl-item1.svg" alt="Problem 1" />
+              <p class="card-text problem__card-text">
                 You have to pay someone every time you want to update your work
               </p>
             </li>
-            <li class="card-item complications-item">
-              <img src="images/compl-item2.svg" />
-              <p class="card-text complication-text">
+            <li class="card-item problem__card-item">
+              <img src="images/compl-item2.svg" alt="Problem 2" />
+              <p class="card-text problem__card-text">
                 You don&apos;t feel your brand truly represents your business...
               </p>
             </li>
-            <li class="card-item complications-item">
-              <img src="images/compl-item3.svg" />
-              <p class="card-text complication-text">
+            <li class="card-item problem__card-item">
+              <img src="images/compl-item3.svg" alt="Problem 3" />
+              <p class="card-text problem__card-text">
                 The process of developing a cohesive brand is unclear and
                 overwhelming...
               </p>
@@ -127,29 +141,33 @@
       </div>
     </section>
     <section class="solution">
-      <div class="solution-container">
-        <div class="heading-block solutions">
+      <div class="solution__container">
+        <div class="heading-block heading-block--solution">
           <!-- <div class="learn-wrapper"> -->
-          <div class="first-block">
-            <img src="images/snowflake.svg" />
-            <p class="first-block-text">Solution</p>
+          <div class="icon-block">
+            <img
+              src="images/snowflake.svg"
+              class="icon-block__img"
+              alt="snowflake"
+            />
+            <p class="icon-block__text">Solution</p>
           </div>
-          <h2 class="heading solutions-head">
+          <h2 class="heading heading--solution">
             We do things a bit
-            <span class="heading-black">differently</span>
+            <span class="heading__highlight">differently</span>
           </h2>
-          <p class="heading-text">
+          <p class="heading__description">
             Our goal is to provide branding services in a way that we would want
             to experience ourselves.
           </p>
           <!-- </div> -->
         </div>
-        <ul class="cards-list solution-list">
-          <li class="card-item solution-item card-1">
-            <img src="images/solution-card1.svg" />
-            <div class="card-block">
-              <h3 class="solution-heading">Clear process & timelines</h3>
-              <p class="card-text solution-text">
+        <ul class="cards-list solution__cards-list">
+          <li class="card-item solution__card-item solution__card-item--type1">
+            <img src="images/solution-card1.svg" alt="Solution card 1" />
+            <div class="card-block card-block--solution">
+              <h3 class="card-block__heading">Clear process & timelines</h3>
+              <p class="card-text solution__card-text">
                 We keep you updated regularly throughout the branding
                 process—whether it&apos;s logo design, messaging, or marketing
                 assets. You&apos;ll know exactly what&apos;s happening and when
@@ -157,11 +175,11 @@
               </p>
             </div>
           </li>
-          <li class="card-item solution-item card-2">
-            <img src="images/solution-card2.svg" />
-            <div class="card-block">
-              <h3 class="solution-heading">Modular by design</h3>
-              <p class="card-text solution-text">
+          <li class="card-item solution__card-item solution__card-item--type2">
+            <img src="images/solution-card2.svg" alt="Solution card 2" />
+            <div class="card-block card-block--solution">
+              <h3 class="card-block__heading">Modular by design</h3>
+              <p class="card-text solution__card-text">
                 Each branding element we create is versatile and scalable,
                 allowing you to expand or adjust your brand assets as your
                 business evolves. From logos to marketing collateral, every
@@ -169,11 +187,11 @@
               </p>
             </div>
           </li>
-          <li class="card-item solution-item card-3">
-            <img src="images/solution-card3.svg" />
-            <div class="card-block">
-              <h3 class="solution-heading">On-going support</h3>
-              <p class="card-text solution-text">
+          <li class="card-item solution__card-item solution__card-item--type3">
+            <img src="images/solution-card3.svg" alt="Solution card 3" />
+            <div class="card-block card-block--solution">
+              <h3 class="card-block__heading">On-going support</h3>
+              <p class="card-text solution__card-text">
                 We don&apos;t just deliver a brand and leave. Add us to your
                 team for continued support with updating, evolving, or
                 refreshing your brand as needed. We&apos;re available for any
@@ -185,10 +203,10 @@
       </div>
     </section>
     <section class="call-us">
-      <div class="call-us-block">
-        <h2 class="block-header block-header--call-us">
+      <div class="call-us__container">
+        <h2 class="block-header call-us__heading">
           Feeling stuck and need <br />
-          to <span class="orange-span">spice</span> it up?
+          to <span class="highlight--orange">spice</span> it up?
         </h2>
         <p class="block-text">
           You need someone that can give the creative super powers and reimagine
@@ -200,48 +218,52 @@
       </div>
     </section>
     <section class="how-it-works">
-      <div class="how-it-works-container">
-        <div class="call-us-block">
-          <div class="first-block">
-            <img src="images/snowflake.svg" />
-            <p class="first-block-text">How it works</p>
+      <div class="how-it-works__container">
+        <div class="heading-block heading-block--how-it-works">
+          <div class="icon-block">
+            <img
+              src="images/snowflake.svg"
+              class="icon-block__img"
+              alt="snowflake"
+            />
+            <p class="icon-block__text">How it works</p>
           </div>
-          <h2 class="heading how-it-works-head">
+          <h2 class="heading heading--how-it-works">
             It&apos;s deliciously simple
           </h2>
           <p class="heading-text how-it-works-head-text">
             It&apos;s just how you&apos;ve always wanted imagination to work.
           </p>
         </div>
-        <ul class="cards-list how-it-works-list">
-          <li class="card-item how-it-works-item">
-            <div class="item-pic">
-              <img src="images/subscribe.svg" width="216" />
+        <ul class="cards-list how-it-works__cards-list">
+          <li class="card-item how-it-works__card-item">
+            <div class="how-it-works__item-pic">
+              <img src="images/subscribe.svg" width="216" alt="subscribe" />
             </div>
-            <div class="card-block how-it-works-block">
-              <h3 class="how-it-works-heading">Subscribe</h3>
-              <p class="card-text how-it-works-text">
+            <div class="card-block card-block--how-it-works">
+              <h3 class="how-it-works__item-heading">Subscribe</h3>
+              <p class="card-text how-it-works__item-text">
                 Hit the subscribe button and let the good times roll!
               </p>
             </div>
           </li>
-          <li class="card-item how-it-works-item">
-            <div class="item-pic">
-              <img src="images/tasks.svg" width="216" />
+          <li class="card-item how-it-works__card-item">
+            <div class="how-it-works__item-pic">
+              <img src="images/tasks.svg" width="216" alt="tasks" />
             </div>
-            <div class="card-block how-it-works-block">
-              <h3 class="how-it-works-heading">Add tasks</h3>
-              <p class="card-text how-it-works-text">
+            <div class="card-block card-block--how-it-works">
+              <h3 class="how-it-works__item-heading">Add tasks</h3>
+              <p class="card-text how-it-works__item-text">
                 Begin adding tasks to your notion board. Add as many as you want
                 and we&apos;ll get movin!
               </p>
             </div>
           </li>
-          <li class="card-item how-it-works-item">
+          <li class="card-item how-it-works__card-item">
             <div class="item-pic">
               <img src="images/results.svg" width="216" />
             </div>
-            <div class="card-block how-it-works-block">
+            <div class="card-block card-block--how-it-works">
               <h3 class="how-it-works-heading">Enjoy the results</h3>
               <p class="card-text how-it-works-text">
                 Start receiving your work within 24-48 hours. We&apos;ll revise
@@ -253,53 +275,57 @@
       </div>
     </section>
     <section class="services">
-      <div class="services-container">
-        <div class="heading-block solutions">
-          <div class="first-block">
-            <img src="images/snowflake.svg" />
-            <p class="first-block-text">Services</p>
+      <div class="services__container">
+        <div class="heading-block heading-block--solution">
+          <div class="icon-block">
+            <img
+              src="images/snowflake.svg"
+              class="icon-block__img"
+              alt="snowflake"
+            />
+            <p class="icon-block__text">Services</p>
           </div>
-          <h2 class="heading services-head">
+          <h2 class="heading heading--services">
             What exactly <br />do
-            <span class="heading-pink">we do?</span>
+            <span class="heading--pink">we do?</span>
           </h2>
-          <p class="heading-text">
+          <p class="heading__description">
             Skills that go beyond expectations—and crush the competition.
           </p>
         </div>
-        <ul class="cards-list services-list">
-          <li class="card-item services-item card-1">
-            <img src="images/check.svg" class="check-pic" />
+        <ul class="cards-list services__cards-list">
+          <li class="card-item services__card-item services__card-item--type1">
+            <img src="images/check.svg" class="services__check-pic" />
             <!-- <div class="card-block"> -->
-            <h3 class="services-heading">Digital Marketing</h3>
-            <p class="services-text">
+            <h3 class="services__heading">Digital Marketing</h3>
+            <p class="services__item-text">
               Drive revenue growth with tailored campaigns that hit the mark
               every time. Real-time feedback? Yes, please.
             </p>
             <!-- </div> -->
-            <img src="images/services-card1.png" class="services-card-pic" />
+            <img src="images/services-card1.png" class="services__item-img" />
           </li>
-          <li class="card-item services-item card-2">
-            <img src="images/check.svg" class="check-pic" />
+          <li class="card-item services__card-item services__card-item--type2">
+            <img src="images/check.svg" class="services__check-pic" />
             <!-- <div class="card-block"> -->
-            <h3 class="services-heading">Design & Development</h3>
-            <p class="services-text">
+            <h3 class="services__heading">Design & Development</h3>
+            <p class="services__item-text">
               Got a big idea? We&apos;ll bring it to life, pixel by pixel. From
               concept to launch, we&apos;ve got you covered.
             </p>
             <!-- </div> -->
-            <img src="images/services-card2.png" class="services-card-pic" />
+            <img src="images/services-card2.png" class="services__item-img" />
           </li>
-          <li class="card-item services-item card-3">
-            <img src="images/check.svg" class="check-pic" />
+          <li class="card-item services__card-item services__card-item--type3">
+            <img src="images/check.svg" class="services__check-pic" />
             <!-- <div class="card-block"> -->
-            <h3 class="services-heading">Logos & Branding</h3>
-            <p class="services-text">
+            <h3 class="services__heading">Logos & Branding</h3>
+            <p class="services__item-text">
               Need a brand upgrade? We make it shine like never before.
               Professional, memorable, and totally you.
             </p>
             <!-- </div> -->
-            <img src="images/services-card3.png" class="services-card-pic" />
+            <img src="images/services-card3.png" class="services__item-img" />
           </li>
         </ul>
       </div>
@@ -321,7 +347,7 @@
               class="only-plusses-card-pic"
               width="234"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 Unlimited<br />
                 Requests
@@ -338,7 +364,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 Wicked<br />
                 Fast
@@ -355,7 +381,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 Laser<br />
                 Focused
@@ -371,7 +397,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">Affordable <br />Pricing</h3>
               <p class="only-plusses-text">
                 Top-tier services at a price we bet you&apos;ll love.
@@ -384,7 +410,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 Expert<br />
                 Designers
@@ -400,7 +426,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 No Scoping<br />
                 or Contracts
@@ -417,7 +443,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">
                 Thoughtfully<br />
                 Async
@@ -433,7 +459,7 @@
               class="only-plusses-card-pic"
               width="250"
             />
-            <div class="card-block">
+            <div class="card-block card-block--only-plusses">
               <h3 class="only-plusses-heading">Flexible & <br />Scalable</h3>
               <p class="only-plusses-text">
                 Stack or cancel your subscription anytime—no harm, no foul.
@@ -689,7 +715,7 @@
     </section>
     <footer class="footer">
       <div class="footer-container">
-        <div class="call-us-block">
+        <div class="call-us_block">
           <h2 class="block-header block-header--footer">
             You are at the end of the page, so are we
           </h2>
@@ -715,25 +741,25 @@
         <img
           src="images/componentyou-and-me.png"
           alt="you and me"
-          class="footer-img-you"
+          class="footer_img-you"
           width="230"
         />
         <img
           src="images/wip.png"
           alt="wip"
-          class="footer-img-wip"
+          class="footer_img-wip"
           width="150"
         />
         <img
           src="images/brain.png"
           alt="brain"
-          class="footer-img-brain"
+          class="footer_img-brain"
           width="272"
         />
         <img
           src="images/framed.png"
           alt="framed"
-          class="footer-img-framed"
+          class="footer_img-framed"
           width="190"
         />
       </div>
